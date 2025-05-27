@@ -13,3 +13,11 @@ logging.basicConfig(
     format='[%(asctime)s] %(lineno)d %(name)s - %(levelname)s - %(message)s',
     level=logging.INFO,
 )
+
+if __name__ == "__main__":
+    logging.info("Logging has been set up.")
+    logging.info(f"Log file path: {LOG_FILE_PATH}")
+    # logging.info("This is an info message.")
+    # logging.error("This is an error message.")
+    # logging.debug("This is a debug message.")
+    # logging.warning("This is a warning message.")
